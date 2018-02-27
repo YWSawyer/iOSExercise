@@ -8,24 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		77F10CA620443C3400967559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CA520443C3400967559 /* AppDelegate.m */; };
-		77F10CA920443C3400967559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CA820443C3400967559 /* ViewController.m */; };
 		77F10CAC20443C3400967559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F10CAA20443C3400967559 /* Main.storyboard */; };
 		77F10CAE20443C3400967559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F10CAD20443C3400967559 /* Assets.xcassets */; };
 		77F10CB120443C3400967559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F10CAF20443C3400967559 /* LaunchScreen.storyboard */; };
 		77F10CB420443C3400967559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CB320443C3400967559 /* main.m */; };
+		77F10CBE20444EB300967559 /* YWBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CBD20444EB200967559 /* YWBaseApi.m */; };
+		77F10CC120444EC200967559 /* YWCleenApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CC020444EC200967559 /* YWCleenApi.m */; };
+		77F10CD22044533800967559 /* YWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CD12044533800967559 /* YWBaseModel.m */; };
+		77F10CE12045812200967559 /* YWListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CDF2045812200967559 /* YWListViewController.m */; };
+		77F10CE6204581DA00967559 /* YWListRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CE5204581DA00967559 /* YWListRowModel.m */; };
+		77F10CEB2045829600967559 /* YWListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CE92045829600967559 /* YWListViewCell.m */; };
+		77F10CEC2045829600967559 /* YWListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F10CEA2045829600967559 /* YWListViewCell.xib */; };
+		77F10CF02045889200967559 /* YWListRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CEF2045889200967559 /* YWListRequestManager.m */; };
+		77F10CF320458D4F00967559 /* YWListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CF220458D4F00967559 /* YWListModel.m */; };
+		77F10CF720459A3500967559 /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F10CF520459A3400967559 /* UIView+Alert.m */; };
+		A8DD02AEB9D2ABCAE851671E /* libPods-iOSExercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B05CF2EF637CC83F4F6C9033 /* libPods-iOSExercise.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		039EDF33FB4B65766CEA05E1 /* Pods-iOSExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		09E20D2A3789AC50EED511B8 /* Pods-iOSExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise.release.xcconfig"; sourceTree = "<group>"; };
 		77F10CA120443C3400967559 /* iOSExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F10CA420443C3400967559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77F10CA520443C3400967559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77F10CA720443C3400967559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77F10CA820443C3400967559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77F10CAB20443C3400967559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77F10CAD20443C3400967559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77F10CB020443C3400967559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77F10CB220443C3400967559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77F10CB320443C3400967559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77F10CBC20444EB200967559 /* YWBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWBaseApi.h; sourceTree = "<group>"; };
+		77F10CBD20444EB200967559 /* YWBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWBaseApi.m; sourceTree = "<group>"; };
+		77F10CBF20444EC200967559 /* YWCleenApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWCleenApi.h; sourceTree = "<group>"; };
+		77F10CC020444EC200967559 /* YWCleenApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWCleenApi.m; sourceTree = "<group>"; };
+		77F10CCE2044520900967559 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		77F10CCF2044529D00967559 /* YWNetworkDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWNetworkDefine.h; sourceTree = "<group>"; };
+		77F10CD02044533800967559 /* YWBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWBaseModel.h; sourceTree = "<group>"; };
+		77F10CD12044533800967559 /* YWBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWBaseModel.m; sourceTree = "<group>"; };
+		77F10CDE2045812200967559 /* YWListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWListViewController.h; sourceTree = "<group>"; };
+		77F10CDF2045812200967559 /* YWListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWListViewController.m; sourceTree = "<group>"; };
+		77F10CE4204581DA00967559 /* YWListRowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWListRowModel.h; sourceTree = "<group>"; };
+		77F10CE5204581DA00967559 /* YWListRowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWListRowModel.m; sourceTree = "<group>"; };
+		77F10CE82045829600967559 /* YWListViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWListViewCell.h; sourceTree = "<group>"; };
+		77F10CE92045829600967559 /* YWListViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWListViewCell.m; sourceTree = "<group>"; };
+		77F10CEA2045829600967559 /* YWListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWListViewCell.xib; sourceTree = "<group>"; };
+		77F10CEE2045889200967559 /* YWListRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWListRequestManager.h; sourceTree = "<group>"; };
+		77F10CEF2045889200967559 /* YWListRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWListRequestManager.m; sourceTree = "<group>"; };
+		77F10CF120458D4F00967559 /* YWListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWListModel.h; sourceTree = "<group>"; };
+		77F10CF220458D4F00967559 /* YWListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWListModel.m; sourceTree = "<group>"; };
+		77F10CF520459A3400967559 /* UIView+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
+		77F10CF620459A3500967559 /* UIView+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Alert.h"; sourceTree = "<group>"; };
+		B05CF2EF637CC83F4F6C9033 /* libPods-iOSExercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DD02AEB9D2ABCAE851671E /* libPods-iOSExercise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +77,8 @@
 			children = (
 				77F10CA320443C3400967559 /* iOSExercise */,
 				77F10CA220443C3400967559 /* Products */,
+				DE0D0A41EAEF81E9047F282A /* Pods */,
+				9CBB9216A494C54E9FFBFBFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +93,133 @@
 		77F10CA320443C3400967559 /* iOSExercise */ = {
 			isa = PBXGroup;
 			children = (
+				77F10CDC2045809000967559 /* ListScene */,
+				77F10CBA20444E2500967559 /* frameworks */,
 				77F10CA420443C3400967559 /* AppDelegate.h */,
 				77F10CA520443C3400967559 /* AppDelegate.m */,
-				77F10CA720443C3400967559 /* ViewController.h */,
-				77F10CA820443C3400967559 /* ViewController.m */,
 				77F10CAA20443C3400967559 /* Main.storyboard */,
 				77F10CAD20443C3400967559 /* Assets.xcassets */,
 				77F10CAF20443C3400967559 /* LaunchScreen.storyboard */,
 				77F10CB220443C3400967559 /* Info.plist */,
 				77F10CB320443C3400967559 /* main.m */,
+				77F10CCE2044520900967559 /* PrefixHeader.pch */,
 			);
 			path = iOSExercise;
+			sourceTree = "<group>";
+		};
+		77F10CBA20444E2500967559 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CF420459A1100967559 /* Extention */,
+				77F10CCC2044512200967559 /* McroDefine */,
+				77F10CC220444F9E00967559 /* BaseModel */,
+				77F10CBB20444E3700967559 /* BaseRequest */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		77F10CBB20444E3700967559 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CBF20444EC200967559 /* YWCleenApi.h */,
+				77F10CC020444EC200967559 /* YWCleenApi.m */,
+				77F10CBC20444EB200967559 /* YWBaseApi.h */,
+				77F10CBD20444EB200967559 /* YWBaseApi.m */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		77F10CC220444F9E00967559 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CD02044533800967559 /* YWBaseModel.h */,
+				77F10CD12044533800967559 /* YWBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		77F10CCC2044512200967559 /* McroDefine */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CCF2044529D00967559 /* YWNetworkDefine.h */,
+			);
+			path = McroDefine;
+			sourceTree = "<group>";
+		};
+		77F10CDC2045809000967559 /* ListScene */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CED2045874C00967559 /* Request */,
+				77F10CE72045826B00967559 /* View */,
+				77F10CE3204581AF00967559 /* Model */,
+				77F10CDD204580CC00967559 /* Controller */,
+			);
+			path = ListScene;
+			sourceTree = "<group>";
+		};
+		77F10CDD204580CC00967559 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CDE2045812200967559 /* YWListViewController.h */,
+				77F10CDF2045812200967559 /* YWListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F10CE3204581AF00967559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CE4204581DA00967559 /* YWListRowModel.h */,
+				77F10CE5204581DA00967559 /* YWListRowModel.m */,
+				77F10CF120458D4F00967559 /* YWListModel.h */,
+				77F10CF220458D4F00967559 /* YWListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77F10CE72045826B00967559 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CE82045829600967559 /* YWListViewCell.h */,
+				77F10CE92045829600967559 /* YWListViewCell.m */,
+				77F10CEA2045829600967559 /* YWListViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F10CED2045874C00967559 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CEE2045889200967559 /* YWListRequestManager.h */,
+				77F10CEF2045889200967559 /* YWListRequestManager.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		77F10CF420459A1100967559 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				77F10CF620459A3500967559 /* UIView+Alert.h */,
+				77F10CF520459A3400967559 /* UIView+Alert.m */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		9CBB9216A494C54E9FFBFBFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05CF2EF637CC83F4F6C9033 /* libPods-iOSExercise.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0D0A41EAEF81E9047F282A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				039EDF33FB4B65766CEA05E1 /* Pods-iOSExercise.debug.xcconfig */,
+				09E20D2A3789AC50EED511B8 /* Pods-iOSExercise.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77F10CB720443C3400967559 /* Build configuration list for PBXNativeTarget "iOSExercise" */;
 			buildPhases = (
+				563F69127B771FB9576CDDC6 /* [CP] Check Pods Manifest.lock */,
 				77F10C9D20443C3400967559 /* Sources */,
 				77F10C9E20443C3400967559 /* Frameworks */,
 				77F10C9F20443C3400967559 /* Resources */,
+				FB80B86ED76EC99F1C9C8BDB /* [CP] Embed Pods Frameworks */,
+				7A0F61491B07FC8CA447C965 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,20 +285,83 @@
 			files = (
 				77F10CB120443C3400967559 /* LaunchScreen.storyboard in Resources */,
 				77F10CAE20443C3400967559 /* Assets.xcassets in Resources */,
+				77F10CEC2045829600967559 /* YWListViewCell.xib in Resources */,
 				77F10CAC20443C3400967559 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		563F69127B771FB9576CDDC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSExercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0F61491B07FC8CA447C965 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB80B86ED76EC99F1C9C8BDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77F10C9D20443C3400967559 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F10CA920443C3400967559 /* ViewController.m in Sources */,
+				77F10CF320458D4F00967559 /* YWListModel.m in Sources */,
+				77F10CE6204581DA00967559 /* YWListRowModel.m in Sources */,
+				77F10CC120444EC200967559 /* YWCleenApi.m in Sources */,
+				77F10CD22044533800967559 /* YWBaseModel.m in Sources */,
+				77F10CEB2045829600967559 /* YWListViewCell.m in Sources */,
 				77F10CB420443C3400967559 /* main.m in Sources */,
+				77F10CF02045889200967559 /* YWListRequestManager.m in Sources */,
+				77F10CF720459A3500967559 /* UIView+Alert.m in Sources */,
 				77F10CA620443C3400967559 /* AppDelegate.m in Sources */,
+				77F10CBE20444EB300967559 /* YWBaseApi.m in Sources */,
+				77F10CE12045812200967559 /* YWListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +493,15 @@
 		};
 		77F10CB820443C3400967559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039EDF33FB4B65766CEA05E1 /* Pods-iOSExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5PY75XDDR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)//iOSExercise/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cleen.iOSExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +511,15 @@
 		};
 		77F10CB920443C3400967559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E20D2A3789AC50EED511B8 /* Pods-iOSExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5PY75XDDR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)//iOSExercise/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cleen.iOSExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";

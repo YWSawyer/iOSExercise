@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  iOSExercise
+//
+//  Created by wei.yuan on 26/02/2018.
+//  Copyright © 2018 wei.yuan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "YWNetworkDefine.h"
+#import <AFNetworking/AFNetworking.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <HYBHelperKit.h>
+#import <Toast/UIView+Toast.h>
+#import "UIView+Alert.h"
+#endif /* PrefixHeader_pch */
